@@ -1,2 +1,29 @@
 # EvanPFWang.github.io
 
+<!-- index.html at the root of EvanPFWang.github.io -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Black–Scholes App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html,body { margin:0; height:100%; }
+    .wrap { display:flex; flex-direction:column; height:100vh; }
+    header { padding:12px 16px; font:600 18px system-ui, sans-serif; }
+    iframe { flex:1; width:100%; border:0; }
+    .fallback { padding:12px 16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>Black–Scholes Option Pricer</header>
+    <iframe
+      src="https://blackscholeswithpararealiterator.streamlit.app/?embed=true&embed_options=disable_scrolling"
+      title="Black–Scholes App"></iframe>
+    <div class="fallback">
+      If the app doesn’t load, <a href="https://blackscholeswithpararealiterator.streamlit.app/" target="_blank" rel="noopener">open it in a new tab</a>.
+    </div>
+  </div>
+</body>
+</html>
